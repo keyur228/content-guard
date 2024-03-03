@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #cfcfcf;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #0c082c;
+  color:#ffcc00;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  display: flex;
+  justify-content:space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.hero {
+  background-image: url("https://wallpaperset.com/w/full/4/6/e/304742.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: #ffffff;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color:#5c9107;
+}
+
+.hero p {
+  font-size: 18px;
+  color:;
+}
+
+.features {
+  background-image:url("https://wallpaperset.com/w/full/4/6/e/304742.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-item {
+  flex: 1 1 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #10103e;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(95, 106, 194, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  background-color: #0c082c;
+  color:#ffcc00;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 0%;
+}
+.hero :hover {
+  transform: translateY(-5px);
+  color: #ffcc00;
+}
+.features:hover{
+  color:#ffcc00; 
+}
+.hero h2:hover{
+  color:#ffcc00;
+}
+.container h2{
+  color:#ffffff;
+}
+.container h2:hover{
+  color:#ffcc00;
+}
